@@ -10,7 +10,7 @@ class mahasiswa{ // blue print atau cetakan
     void prinData(){
         cout << "NIM : " << nim << endl;
         cout << "Nama : " << nama << endl;
-        cout << "Nilai : " <<
+        cout << "Nilai : " << nilai << endl;
     }
 
 }
