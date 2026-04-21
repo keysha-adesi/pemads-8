@@ -5,9 +5,9 @@ class mahasiswa{ // blue print atau cetakan
     public:
     int nim;
     string nama;
-    float niali;
+    float nilai;
 
-    void prinData(){
+    void printData(){
         cout << "NIM : " << nim << endl;
         cout << "Nama : " << nama << endl;
         cout << "Nilai : " << nilai << endl;
@@ -19,7 +19,7 @@ int main(){
     mahasiswa mhs; // object
     mhs.nim = 2022;
     mhs.nama = "Abra";
-    mhs.nilai = 90,5;
+    mhs.nilai = 90.5;
 
-mhs.printData();
+    mhs.printData();
 }
