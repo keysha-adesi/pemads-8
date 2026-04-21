@@ -13,4 +13,8 @@ class mahasiswa{ // blue print atau cetakan
         cout << "Nilai : " << nilai << endl;
     }
 
+}; //batas class
+
+int main(){
+    mahasiswa mhs; // object
 }
